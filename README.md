@@ -62,7 +62,7 @@ Checking for trip count less than 5 minutes in duration
 
 
 ## 3-Data Cleaning and Manipulation 
-Links to SQL Queries: [Data Cleaning and Manipulation](https://github.com/danishnawaz-BI/Google-Data-Analytics-Cyclistic-Case-Study/blob/1272e893e25114353b57f69a8172fe8311208d11/3-Data%20Cleaning%20%26%20Manipulation.sql)
+Links to SQL Queries: [Data Cleaning and Manipulation](https://github.com/danishnawaz-BI/Google-Data-Analytics-Cyclistic-Case-Study/blob/1272e893e25114353b57f69a8172fe8311208d11/3-Data%20Cleaning%20%26%20Manipulation.sql) & 
 [Data Exploration after Cleaning](https://github.com/danishnawaz-BI/Google-Data-Analytics-Cyclistic-Case-Study/blob/1272e893e25114353b57f69a8172fe8311208d11/4-Data%20Exploration%20after%20cleaning.sql)
 
 •	In this stage rows with NULL values have been removed.
