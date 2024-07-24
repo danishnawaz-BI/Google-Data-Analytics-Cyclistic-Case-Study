@@ -28,43 +28,45 @@ All the steps which have been used in SQL are explained in this document below.
 ## 1.	Data Collection
 Link to SQL Queries: [Data Collection](https://github.com/danishnawaz-BI/Google-Data-Analytics-Cyclistic-Case-Study/blob/1272e893e25114353b57f69a8172fe8311208d11/1-Data%20Collection.sql)
 
-Monthly trip data is contained in individual excel file. The data for each month for the year 2021 has been downloaded and exported into Big Query. Furthermore, all the 12 tables were combined in a single table to contain 2021 data using SQL in Big Query.
+The monthly trip data is stored in individual Excel files. For each month in 2021, the data has been downloaded and exported into BigQuery. Subsequently, all 12 tables were combined into a single table containing the entire 2021 dataset using SQL in BigQuery.
 
 ## 2-Data Exploration 
 Link to SQL Queries: [Data Exploration](https://github.com/danishnawaz-BI/Google-Data-Analytics-Cyclistic-Case-Study/blob/1272e893e25114353b57f69a8172fe8311208d11/2-Data%20Exploration.sql).
 
-Counting the total number of rows
+### Counting the total number of rows
+
 The combined data for year 2021 contains 5595063 rows.
+![image](https://github.com/user-attachments/assets/a72e8bb9-969f-4a21-91e4-e017a1765433)
+
  
-Checking the Data Types for all the columns
- 
-Checking the number of NULL values in each column
- 
-Columns Start_station_name, start_station_id, End_station_name, End_station_id, End_lat, end_lng contain NULL values which will be removed in the Data Cleaning stage.         
-Checking duplicate rows
+### Checking the Data Types for all the columns
+![image](https://github.com/user-attachments/assets/ff18c80d-2c41-4593-8a11-69db3baf7fd7)
+
+### Checking the number of NULL values in each column
+![image](https://github.com/user-attachments/assets/346070e5-1516-445d-81af-ba278fa92e7b)
+
+Columns Start_station_name, start_station_id, End_station_name, End_station_id, End_lat, end_lng contain NULL values which will be removed in the Data Cleaning stage.
+
+### Checking duplicate rows
 There are no duplicate rows in the dataset.
- 
+![image](https://github.com/user-attachments/assets/f53b4f70-f5b3-4b12-9d75-40f511039ff6)
 
-
-Checking ride ids length for consistency 
+### Checking ride ids length for consistency 
 All the ride_ids have 16 characters in length which show consistency in the data.
- 
-Checking trip count by user type
- 
-Checking trip count by bike type
- 
-Checking for trip count greater than 19 hours
+![image](https://github.com/user-attachments/assets/e11dcb2b-6d1f-44d3-811e-5f663812d530)
+
+### Checking trip count by user type
+![image](https://github.com/user-attachments/assets/8e8a4095-3129-440f-adde-ab200eeec4bc)
+
+ ### Checking trip count by bike type
+ ![image](https://github.com/user-attachments/assets/60932337-07e3-40e5-8bab-4528f0958b70)
+
+### Checking for trip count greater than 19 hours
 Trips whose duration is greater than 19 hrs and less than 5 minutes will be removed in the data cleaning stage.
- 
-Checking for trip count less than 5 minutes in duration
- 
+![image](https://github.com/user-attachments/assets/16243c42-f5a5-4034-b60e-8e7159422a60)
 
-
-
-
-
-
-
+### Checking for trip count less than 5 minutes in duration
+![image](https://github.com/user-attachments/assets/ab311e2b-5762-42be-a258-3eae7373fee3)
 
 
 ## 3-Data Cleaning and Manipulation 
@@ -79,12 +81,16 @@ Links to SQL Queries: [Data Cleaning and Manipulation](https://github.com/danish
 •	Trip Duration, Day of Week and Month column has been added in the data using different SQL functions.
 •	A final table has been produced with the relevant columns using a JOIN.
 The schema and data types of the final table is:
-  
-Checking NULL count in each column after cleaning the data
- 
+![image](https://github.com/user-attachments/assets/f5dce7ee-25a8-47fa-97e8-1bb28d74a6c4)
+
+### Checking NULL count in each column after cleaning the data
+![image](https://github.com/user-attachments/assets/e15a206d-e804-40d1-873f-f16abd7e981e)
 The final dataset does not contain any NULL values.
-Checking number of rows for the final table
+
+### Checking number of rows for the final table
 The final dataset has been reduced to 3507716 rows after removing NULL values and irrelevant data.
+![image](https://github.com/user-attachments/assets/9fc47330-6ce4-4fc1-8937-aa91fe9f385a)
+
  
 
 
