@@ -36,6 +36,7 @@ Link to SQL Queries: [Data Exploration](https://github.com/danishnawaz-BI/Google
 ### Counting the total number of rows
 
 The combined data for year 2021 contains 5595063 rows.
+
 ![image](https://github.com/user-attachments/assets/a72e8bb9-969f-4a21-91e4-e017a1765433)
 
  
