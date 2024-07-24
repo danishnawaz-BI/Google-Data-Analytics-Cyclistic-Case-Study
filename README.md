@@ -83,13 +83,13 @@ Trips whose duration is greater than 19 hrs and less than 5 minutes will be remo
 Links to SQL Queries: [Data Cleaning and Manipulation](https://github.com/danishnawaz-BI/Google-Data-Analytics-Cyclistic-Case-Study/blob/1272e893e25114353b57f69a8172fe8311208d11/3-Data%20Cleaning%20%26%20Manipulation.sql) & 
 [Data Exploration after Cleaning](https://github.com/danishnawaz-BI/Google-Data-Analytics-Cyclistic-Case-Study/blob/1272e893e25114353b57f69a8172fe8311208d11/4-Data%20Exploration%20after%20cleaning.sql)
 
-•	In this stage rows with NULL values have been removed
-•	Column name ride_id has been replaced with trip_id
-•	Column name rideable_type has been replaced with bike_type
-•	Column name member_casual has been replaced with user_type
-•	Trip_duartion column has been converted into an INT64 data type
-•	Trip Duration, Day of Week and Month column has been added in the data using different SQL functions
-•	A final table has been produced with the relevant columns using a JOIN
+-	In this stage rows with NULL values have been removed
+-Column name ride_id has been replaced with trip_id
+-	Column name rideable_type has been replaced with bike_type
+-	Column name member_casual has been replaced with user_type
+-	Trip_duartion column has been converted into an INT64 data type
+-	Trip Duration, Day of Week and Month column has been added in the data using different SQL functions
+-	A final table has been produced with the relevant columns using a JOIN
 The schema and data types of the final table is:
 
 ![image](https://github.com/user-attachments/assets/f5dce7ee-25a8-47fa-97e8-1bb28d74a6c4)
