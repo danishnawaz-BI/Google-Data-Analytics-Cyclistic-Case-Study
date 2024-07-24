@@ -14,7 +14,7 @@ As a Junior Data Analyst, the task is to answer the following question:
 How do annual members and casual riders use Cyclistic bikes differently?
 
 ## Action:
-1.	Cyclistic data for year 2021 has been used for analysis and visualization purposes. Cyclistic Trip Data.
+1.	Cyclistic data for year 2021 has been used for analysis and visualization purposes. [Cyclistic Trip Data](https://divvy-tripdata.s3.amazonaws.com/index.html)
 2.	The data has been collected, combined, explored, cleaned and manipulated using SQL in Big Query to create a final target table.
 3.	Finally, the dataset contained in the target table has been used in Tableau: A Business Intelligence Platform to create visualizations and identify trends.
 All the steps which have been used in SQL are explained in this document below.
