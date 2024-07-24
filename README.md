@@ -26,6 +26,7 @@ Monthly trip data is contained in individual excel file. The data for each month
 
 ## 2-Data Exploration 
 Link to SQL Queries: [Data Exploration](https://github.com/danishnawaz-BI/Google-Data-Analytics-Cyclistic-Case-Study/blob/1272e893e25114353b57f69a8172fe8311208d11/2-Data%20Exploration.sql).
+
 Counting the total number of rows
 The combined data for year 2021 contains 5595063 rows.
  
@@ -62,7 +63,9 @@ Checking for trip count less than 5 minutes in duration
 
 ## 3-Data Cleaning and Manipulation 
 Links to SQL Queries: [Data Cleaning and Manipulation](https://github.com/danishnawaz-BI/Google-Data-Analytics-Cyclistic-Case-Study/blob/1272e893e25114353b57f69a8172fe8311208d11/3-Data%20Cleaning%20%26%20Manipulation.sql).
+
 [Data Exploration after Cleaning](https://github.com/danishnawaz-BI/Google-Data-Analytics-Cyclistic-Case-Study/blob/1272e893e25114353b57f69a8172fe8311208d11/4-Data%20Exploration%20after%20cleaning.sql)
+
 •	In this stage rows with NULL values have been removed.
 •	Column name ride_id has been replaced with trip_id.
 •	Column name rideable_type has been replaced with bike_type.
