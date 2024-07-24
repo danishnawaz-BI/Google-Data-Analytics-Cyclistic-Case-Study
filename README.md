@@ -21,6 +21,7 @@ All the steps which have been used in SQL are explained in this document below.
 
 ## 1.	Data Collection
 Link to SQL Queries: [Data Collection](https://github.com/danishnawaz-BI/Google-Data-Analytics-Cyclistic-Case-Study/blob/1272e893e25114353b57f69a8172fe8311208d11/1-Data%20Collection.sql).
+
 Monthly trip data is contained in individual excel file. The data for each month for the year 2021 has been downloaded and exported into Big Query. Furthermore, all the 12 tables were combined in a single table to contain 2021 data using SQL in Big Query.
 
 ## 2-Data Exploration 
