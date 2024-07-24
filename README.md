@@ -26,13 +26,13 @@ How do annual members and casual riders use Cyclistic bikes differently?
 
 All the steps which have been used in SQL are explained in this document below.
 
-## 1.	Data Collection
+## 1-	Data Collection
 Link to SQL Queries: [Data Collection](https://github.com/danishnawaz-BI/Google-Data-Analytics-Cyclistic-Case-Study/blob/1272e893e25114353b57f69a8172fe8311208d11/1-Data%20Collection.sql)
 
 The monthly trip data is stored in individual Excel files. For each month in 2021, the data has been downloaded and exported into BigQuery. Subsequently, all 12 tables were combined into a single table containing the entire 2021 dataset using SQL in BigQuery.
 
 ## 2-Data Exploration 
-Link to SQL Queries: [Data Exploration](https://github.com/danishnawaz-BI/Google-Data-Analytics-Cyclistic-Case-Study/blob/1272e893e25114353b57f69a8172fe8311208d11/2-Data%20Exploration.sql).
+Link to SQL Queries: [Data Exploration](https://github.com/danishnawaz-BI/Google-Data-Analytics-Cyclistic-Case-Study/blob/1272e893e25114353b57f69a8172fe8311208d11/2-Data%20Exploration.sql)
 
 ### Counting the total number of rows
 
@@ -105,7 +105,7 @@ The final dataset has been reduced to 3507716 rows after removing NULL values an
 
 ![image](https://github.com/user-attachments/assets/9fc47330-6ce4-4fc1-8937-aa91fe9f385a)
 
-## Data Analysis and Visulization
+## 4- Data Analysis and Visulization
 Finally, the clean data has been exported into Tableau for insights and recommendations.
 The link to Tableau Story is: [Cyclistic Story](https://public.tableau.com/views/GoogleDataAnalyticsCyclisticCaseStudy_17217807654710/Cyclistic?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
