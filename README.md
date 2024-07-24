@@ -22,7 +22,7 @@ How do annual members and casual riders use Cyclistic bikes differently?
 ## Action:
 1.	Cyclistic data for year 2021 has been used for analysis and visualization purposes. [Cyclistic Trip Data](https://divvy-tripdata.s3.amazonaws.com/index.html)
 2.	The data has been collected, combined, explored, cleaned and manipulated using SQL in Big Query to create a final target table.
-3.	Finally, the dataset contained in the target table has been used in Tableau: A Business Intelligence Platform to create visualizations and identify trends.
+3.	Finally, the dataset contained in the target table has been used in Tableau: A Business Intelligence Platform to create visualizations and identify trends. The link to the Tableau Story is: [Cyclistic Story](https://public.tableau.com/views/GoogleDataAnalyticsCyclisticCaseStudy_17217807654710/Cyclistic?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 All the steps which have been used in SQL are explained in this document below.
 
 ## 1.	Data Collection
